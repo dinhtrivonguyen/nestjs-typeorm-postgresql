@@ -1,5 +1,6 @@
 import { Global, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+
 import { CompaniesController } from './companies.controller';
 import { CompaniesService } from './companies.service';
 import { Company } from './company.entity';
